@@ -1,0 +1,49 @@
+# Data, weights and exported models (created by the notebooks, kept in Google Drive)
+# (the two NCNN models in models/ are kept on purpose for the demo app)
+*.zip
+*.pt
+*.onnx
+robot/maize_weed_*_ncnn_*/
+maizeweed/
+runs/
+
+# Robot output
+robot/logs/
+robot/recordings/
+robot/find_zone.jpg
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# System
+.DS_Store
+Thumbs.db
+
+# WeedGuard runtime state (captures, plans, action log)
+weedguard/state/
+weedguard/.synapse/discover/
+__pycache__/
+
+# never commit your API key
+gemini_key.txt
+llm_key.txt
+synapse_key.txt
+eval/llm.json
+eval/model.txt
+results/
+.venv/
+tools/
+
+# local only
+release/
+weedguard/.synapse/
+START_HERE.txt
+check_key.bat
+test_parser.bat
+eval/test_parser.js
+eval/join_model_parts.py
+eval/reference_weed_plot_server.py

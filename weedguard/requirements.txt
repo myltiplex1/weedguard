@@ -1,0 +1,6 @@
+# WeedGuard MCP server (run from this folder)
+mcp>=1.10,<2          # Synapse-generated servers use mcp.server.fastmcp, which mcp 2.x removed
+ncnn>=1.0.20240410
+opencv-python-headless>=4.8
+numpy>=1.24
+pyyaml>=6.0

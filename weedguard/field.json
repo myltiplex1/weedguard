@@ -1,0 +1,14 @@
+{
+  "farm": "WeedGuard demo maize farm",
+  "note": "Simulated plots. Photos come from the public datasets used to train the model (see the main README). P6-P8 are set up to fail the way the real robot can.",
+  "plots": [
+    {"plot_id": "P1", "name": "Block A east (France, ACRE)",            "area_m2": 40, "image": "field_images/P1_acre_000004.jpg"},
+    {"plot_id": "P2", "name": "Block A west (France, ACRE)",            "area_m2": 40, "image": "field_images/P2_acre_000125.jpg"},
+    {"plot_id": "P3", "name": "Block B (Austria, CropAndWeed)",         "area_m2": 25, "image": "field_images/P3_cropandweed_001823.jpg"},
+    {"plot_id": "P4", "name": "Block C (Austria, CropAndWeed)",         "area_m2": 60, "image": "field_images/P4_cropandweed_001816.jpg"},
+    {"plot_id": "P5", "name": "Niger State plot, dense maize (Nigeria)", "area_m2": 30, "image": "field_images/P5_nigeria_000000.jpg"},
+    {"plot_id": "P6", "name": "Back field (camera fault)",              "area_m2": 50, "camera": "offline"},
+    {"plot_id": "P7", "name": "Block D (dusty lens)",                   "area_m2": 45, "image": "field_images/P7_cornweed_001004_blurred.jpg"},
+    {"plot_id": "P8", "name": "Niger State plot 2 (dusk)",              "area_m2": 30, "image": "field_images/P8_nigeria_000001_dusk.jpg"}
+  ]
+}

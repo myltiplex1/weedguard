@@ -1,0 +1,4 @@
+# Raspberry Pi 4, 64-bit Raspberry Pi OS. picamera2, gpiozero and lgpio come with the OS
+# (create the venv with --system-site-packages so they stay visible).
+ultralytics==8.4.202
+ncnn
